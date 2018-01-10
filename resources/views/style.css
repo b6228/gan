@@ -1,0 +1,11 @@
+@charset"UTF-8";
+
+body    {font-family: 'メイリオ',
+        'Hiragino Kaku Gothic Pro',sans-seeif}
+
+.boxA:after    {content:"";
+                dispiay:block;
+                clear:both}
+
+.box1           {float: left;
+                width:50%}
