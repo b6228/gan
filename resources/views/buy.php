@@ -29,7 +29,7 @@
     <span style="background-color:#ffffff">住所　　
     <input type="text" name="address"value="<?=old('address') ?>">
     </span><br>
-        　　 　　　　　　　　　　<input type="submit" value="完了"></div>
+        　　 　　　　　　　　　　<input type="submit" value="送信"></div>
 </form>
     <span style="background-color:#ffffff">
 <div style="padding: 10px; margin-bottom: 10px; border: 5px double #333333; background-color: #ffffff;width: 100px;"><a href="/cart">カートへ</a><br>

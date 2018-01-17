@@ -9,11 +9,11 @@
 </head>
 <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzG9L4RcaiAUA7sSDPpZcAmzNTMB-lq71AZJqLcyu1vJN5wrr9qw">
 <Div Align="center">
-    <span style="background-color:#ffffff"> <div style="padding: 10px; margin-bottom: 10px; border: 5px double #333333; background-color: #ffffff;width: 100px;">カートの中身 </div></span>
-    <div style="padding: 10px; margin-bottom: 10px; border: 5px double #333333; background-color: #ffffff;width: 130px;">
+    <span style="background-color:#ffffff"> <div style="padding: 10px; margin-bottom: 10px; border: 5px double #333333; background-color: #ffffff;width: 400px;">カートの中身 </div></span>
+    <div style="padding: 10px; margin-bottom: 10px; border: 5px double #333333; background-color: #ffffff;width: 400px;">
     <?php foreach($items as $index => $item):?>
     <div>
-
+          <img src="<?= $item->URL ?>" alt=""><br>
             <span style="background-color:#ffffff"><?= $item->name ?>
                 <?= $item->price ?> 円</span>
         <form action="/cart/delete/<?=$index?>" method="POST">
@@ -30,7 +30,7 @@
     </div>
 <?php foreach($items as $item): ?>
 <?php endforeach; ?>
-    <div style="padding: 10px; margin-bottom: 10px; border: 5px double #333333; background-color: #ffffff;width: 100px;"><span style="background-color:#ffffff"><a href="/buy">購入へ </a><br>
+    <div style="padding: 10px; margin-bottom: 10px; border: 5px double #333333; background-color: #ffffff;width: 400px;"><span style="background-color:#ffffff"><a href="/buy">購入へ </a><br>
             <a href="/">トップへ </a></span>
     </Div></Div>
 </body>

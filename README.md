@@ -27,3 +27,4 @@ $ composer install
 $ composer require laravel/homestead --dev
 $ vagrant up
 ````# gan
+# gan
